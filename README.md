@@ -34,3 +34,7 @@ Run the scripts with Python:
 
 python -m unittest test_login.py
 python -m unittest test_attendance.py
+## Version Control Update
+
+This repository demonstrates local commits,
+remote pushes, and pulling changes from GitHub.
