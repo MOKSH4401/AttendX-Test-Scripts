@@ -22,6 +22,11 @@ class TestLogin(unittest.TestCase):
 
         self.assertEqual(password, "")
 
+    def test_whitespace_username(self):
+        username = "   "
+
+        self.assertEqual(username.strip(), "")
+
 
 if __name__ == "__main__":
     unittest.main()
